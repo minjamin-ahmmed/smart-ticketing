@@ -61,7 +61,7 @@ document.getElementById('coupon-btn').addEventListener('click', function(){
 
     let couponField = document.getElementById('coupon-field').value;
 
-    if(couponField === 'Couple 20'){
+    if(couponField === 'couple 20'){
 
         
 
@@ -71,7 +71,7 @@ document.getElementById('coupon-btn').addEventListener('click', function(){
         let actualPrice = 2200 - newGrandPrice
 
         document.getElementById('grand-price').innerText = actualPrice;
-    }else if(couponField === 'NEW50'){
+    }else if(couponField === 'NEW15'){
         let grandPrice = document.getElementById('grand-price'),innerText
 
         let newGrandPrice = (550*4) * 0.15
